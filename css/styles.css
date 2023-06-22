@@ -30,11 +30,34 @@
 /* End of the Media Queries for Responsive Layout */
 
 
-/* CSS for changing the logo's size without changing the navbar's size. */
+/* CSS for changing the logo's size and the nav links without changing the navbar's size. */
 .navbar-brand img {
     width: 90px; /* Adjust the desired width */
     height: 55px; /* Adjust the desired height */
     padding-left: 20px;
+  }
+
+  .nav-link {
+    position: relative;
+    display: inline-block;
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
   }
 /* End of code. */
 
