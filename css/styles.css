@@ -137,10 +137,23 @@
   padding-left: 20px;
   padding-right: 20px;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .paragraph{
   padding-left: 50px;
   font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+
+.secondheader {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 5em;
 }
 /* end of the third css */
+
+.brown-footer {
+  background-color: brown;
+  font-family: 'Kanit', sans-serif;
+}
