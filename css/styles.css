@@ -153,7 +153,21 @@
 }
 /* end of the third css */
 
+
+/* Footer CSS */
 .brown-footer {
   background-color: brown;
   font-family: 'Kanit', sans-serif;
 }
+.logo{
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.text-reset, .text-uppercase, .col-md-4, .text-center{
+  font-family: 'Kanit', sans-serif;
+}
+/* End of footer css */
