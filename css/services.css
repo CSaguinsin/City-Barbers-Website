@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* Media Queries for Responsive Layout */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    padding-left: 0;
+  }
+
+  .header {
+    font-size: 50px;
+  }
+
+  .cardcontainer {
+    padding-left: 0; /* Remove left padding on smaller screens */
+    margin: 20px; /* Adjust the margin as per your desired spacing */
+  }
+}
+/* End of the Media Queries for Responsive Layout */
+
+/* CSS for changing the logo's size and the nav links without changing the navbar's size. */
+.navbar-brand img {
+  width: 90px; /* Adjust the desired width */
+  height: 55px; /* Adjust the desired height */
+  padding-left: 20px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+/* End of code. */
+
+/* Navbar color CSS */
+.custom-navbar {
+    background-color: #FFE4E4; /* Replace with your desired color */
+    font-family: 'Kanit', sans-serif;
+  }
+  /* End of navbar color css */
+  
+
+  /* Second Section in Services CSS */
+   .secondsection {
+    background-color:#D3D3A8 ;
+   }
+   .header {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 5em;
+  }
+  .cardcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 70px;
+    padding-right: 1%;
+  }
+  .card {
+    width: 290px;
+    height: 254px;
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   }
+   
+   .shadow {
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(190, 190, 190),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+   }
+  /* End */
+
+   
+   
