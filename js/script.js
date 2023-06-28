@@ -17,13 +17,13 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('#mysecondButton').click(function() {
-    window.location.href = 'rebond.html';
+    window.location.href = 'homeservice.html';
   });
 });
 
 $(document).ready(function() {
   $('#mythirdButton').click(function() {
-    window.location.href = 'haircut.html';
+    window.location.href = 'homeservice.html';
   });
 });
 
