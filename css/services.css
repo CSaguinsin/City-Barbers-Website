@@ -171,3 +171,56 @@
   border-radius: .7rem;
 }
 
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar .navbar-nav {
+    margin-top: 1rem;
+  }
+
+  /* Sections */
+  section {
+    padding: 2rem 1rem;
+  }
+  .header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .cardcontainer .card {
+    width: 100%;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .paragraph {
+    margin-bottom: 1rem;
+  }
+
+  /* Testimonials */
+  .cards {
+    margin-bottom: 1.5rem;
+  }
+}

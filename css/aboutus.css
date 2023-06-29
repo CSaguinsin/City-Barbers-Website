@@ -17,6 +17,8 @@
     margin: 20px; /* Adjust the margin as per your desired spacing */
   }
 }
+
+
 /* End of the Media Queries for Responsive Layout */
 
 /* CSS for changing the logo's size and the nav links without changing the navbar's size. */
@@ -69,6 +71,7 @@
     font-size: 20px;
     padding-left: 70px;
     padding-right: 70px;
+    padding-top: 10px;
 }
 
   .team{
